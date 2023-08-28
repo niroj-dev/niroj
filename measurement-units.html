@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .description{
+            border: 1px solid;
+            margin-top: 32px;
+            margin-top: 2px;
+            padding: 16px;
+            padding: 1em;
+        }
+        .parent{
+            width: 400px;
+            background-color: teal;
+            height: 200px;
+        }
+        .child{
+            border: 1px solid;
+            padding: 16px;
+            background-color: cyan;
+            width: 50%;
+            height: 100px;
+            
+
+        }
+       .parent  .red{
+           background-color: red;
+        }
+        .cards .red{
+            margin-top: 32px;
+            border: 2px solid red;
+        }
+        .card {
+            border: 1px solid;
+            padding: 1px;
+            display: inline-block ;
+        }
+       header li{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <ul>
+              </li>  <li><a href="#">Homes</a></li>
+              </li>  <li><a href="#">About</a></li>
+                </li><li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1> measurement units</h1>
+    <ul>
+       <li>px</li> 
+       <li>% ( do not work for padding and margin use it for weidth and height)</li> 
+       <li>em (dependent on font size)</li> 
+       <li>rm(dependent on html font size) (mainly used in padding and margin)</li> 
+    </ul>
+    parent
+    <div class="parent">
+    
+          <div class="child">
+            child
+          </div>
+          <div class="child red">
+            child
+          </div>
+        </div>
+<hr>
+      <h1>Testimonials</h1>
+
+    <div class="cards">
+      
+      <div class="card ">
+        ram
+        </div>
+    <div class="card red">
+       hari
+    </div>
+    <div class="card">
+        shyam
+     </div>
+</div>
+
+    <p class="description">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum animi quibusdam sed, illo ipsam pariatur consectetur eius ipsa et, odit quia dignissimos natus dolorum doloremque, impedit sint laudantium magni nostrum!
+    </p>
+</body>
+</html>
